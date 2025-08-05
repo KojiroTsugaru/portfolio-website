@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { GitHubIcon, AppStoreIcon } from '@/components/icons';
+import { ExternalLinkIcon } from '@/components/icons';
 
 export interface Project {
   title: string;
@@ -17,43 +17,90 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
-    description: "A beautiful web app with scroll-driven motion and crisp UI.",
-    longDescription: "This project showcases modern web development techniques with a focus on user experience and performance. Built with Next.js and Framer Motion, it demonstrates smooth animations and responsive design.",
+    title: "Puctee",
+    description: "iOS app to encourage people to prevent being late for appointments with friends",
+    longDescription: `
+      Transform your time management with Puctee, the social-accountability iOS app that will help you prevent being late for appointments with friends. By allowing you to set predefined penalties when creating events, Puctee harnesses 
+      peer pressure and behavioral economics to dramatically improve punctuality. Under the hood, iOS frontend is 
+      powered by SwiftUI, while a FastAPI backend running on AWS Lambda and API Gateway powers secure, serverless 
+      operations; PostgreSQL on RDS stores your data; and JWT authentication plus push notifications ensure reliable 
+      coordination. With its clean, intuitive interface and science-backed approach, Puctee not only helps 
+      you arrive on time today—it evolves with you, making every commitment count.
+    `,
     image: "/next.svg",
-    date: "Jan 2024 - Present",
+    date: "April 2025 - Present",
     links: [
       {
         label: "App Store",
         url: "https://apps.apple.com/app/your-app-id",
-        icon: <AppStoreIcon />
+        icon: <ExternalLinkIcon />
       },
       {
-        label: "GitHub",
-        url: "https://github.com/yourusername/project-one",
-        icon: <GitHubIcon />
+        label: "Backend GitHub",
+        url: "https://github.com/KojiroTsugaru/puctee-backend",
+        icon: <ExternalLinkIcon />
+      },
+      {
+        label: "Frontend GitHub",
+        url: "https://github.com/KojiroTsugaru/puctee",
+        icon: <ExternalLinkIcon />
       },
     ],
-    tech: ["Next.js", "React", "Tailwind CSS", "Framer Motion"]
+    tech: ["SwiftUI", "FastAPI", "AWS(S3, RDS, Lambda, API Gateway)"]
   },
   {
-    title: "Project Two",
-    description: "A minimal portfolio site inspired by Apple's product pages.",
-    longDescription: "An elegant portfolio website that takes inspiration from Apple's design language. Features include smooth scroll animations, parallax effects, and a clean, minimalist interface.",
-    image: "/vercel.svg",
-    date: "Dec 2023 - Jan 2024",
+    title: "KamiRes AI",
+    description: "AI-powered iOS app to generate reply suggestion from just a screenshot of a chat",
+    longDescription: `KamiRes AI revolutionizes messaging by providing intelligent 
+    reply suggestions through screenshot analysis. The app uses OpenAI's GPT models 
+    to understand chat context and generate relevant responses. Built with SwiftUI for a 
+    seamless iOS experience, it features a custom FastAPI backend deployed on Railway that 
+    securely handles API credentials and enables dynamic prompt engineering. The architecture 
+    allows for rapid iteration of AI behavior without requiring app updates.`,
+    image: "/next.svg",
+    date: "Feb 2025 - March 2025",
     links: [
       {
         label: "App Store",
-        url: "https://apps.apple.com/app/your-app-id",
-        icon: <AppStoreIcon />
+        url: "https://apps.apple.com/us/app/%E7%A5%9E%E3%83%AC%E3%82%B9ai-%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%82%E3%82%8B%E8%BF%94%E4%BF%A1%E3%82%92%E4%B8%80%E7%9E%AC%E3%81%A7%E7%94%9F%E6%88%90%E3%81%A7%E3%81%8D%E3%82%8Bai%E3%83%84%E3%83%BC%E3%83%AB/id6741389098",
+        icon: <ExternalLinkIcon />
       },
       {
-        label: "GitHub",
-        url: "https://github.com/yourusername/project-two",
-        icon: <GitHubIcon />
+        label: "Backend GitHub",
+        url: "https://github.com/KojiroTsugaru/Kami-Res-AI-backend",
+        icon: <ExternalLinkIcon />
+      },
+      {
+        label: "Frontend GitHub",
+        url: "https://github.com/KojiroTsugaru/Kami-Res-AI",
+        icon: <ExternalLinkIcon />
+      },
+    ],
+    tech: ["SwiftUI", "FastAPI", "Railway", "OpenAI API"]
+  },
+  {
+    title: "Lunon",
+    description: "Flutter-based anonynmous social app for closed school community",
+    longDescription: `This project showcases 
+    the power of Flutter for building 
+    cross-platform apps with a 
+    modern, intuitive interface. 
+    It features a custom backend 
+    deployed on Firebase that 
+    securely handles user authentication 
+    and data storage. The app 
+    also includes push notifications 
+    to keep users engaged and 
+    informed about new content.`,
+    image: "/next.svg",
+    date: "December 2023 - March 2024",
+    links: [
+      {
+        label: "App Store",
+        url: "https://apps.apple.com/gt/app/lunon/id6736573377",
+        icon: <ExternalLinkIcon />
       }
     ],
-    tech: ["React", "Tailwind CSS", "Framer Motion", "TypeScript"]
-  }
-]; 
+    tech: ["Flutter/Dart", "Firebase(Auth, Firestore, Storage, Messaging)"]
+  },
+];

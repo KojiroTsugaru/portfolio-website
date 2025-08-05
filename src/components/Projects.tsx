@@ -43,7 +43,9 @@ export default function Projects({ projects }: ProjectsProps) {
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white">{project.title}</h3>
                   <span className="text-sm text-zinc-500">{project.date}</span>
                 </div>
-                <p className="text-base sm:text-lg text-zinc-400 mb-4 sm:mb-6">{project.longDescription}</p>
+                <p className="text-sm italic text-zinc-400 mb-3">{project.description}</p>
+                <div className="border-b border-zinc-700 w-16 mb-4" />
+                <p className="text-base sm:text-lg text-zinc-300 mb-4 sm:mb-6">{project.longDescription}</p>
                 <div className="mb-4 sm:mb-6">
                   <h4 className="text-base sm:text-lg font-semibold mb-2 text-white">Technologies Used:</h4>
                   <div className="flex flex-wrap gap-2 justify-center md:justify-start">

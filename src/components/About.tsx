@@ -24,7 +24,8 @@ export default function About() {
           <div className="text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-white">Kojiro Tsugaru</h1>
             <p className="text-base sm:text-lg text-zinc-400 mb-6">
-              I&apos;m an iOS & backend developer studying Computer Science at UC Berkeley, <br />
+              Hi, thank you for visiging my website! <br />
+              I&apos;m an iOS & backend developer studying Computer Science at UC Berkeley,
               passionate about building efficient, scalable systems and seamless mobile experiences.
             </p>  
             

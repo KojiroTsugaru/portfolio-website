@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Portfolio | [Your Name]",
-  description: "Personal portfolio website echoing Apple.com design.",
+  title: "Portfolio | Kojiro Tsugaru",
+  description: "Personal portfolio website",
 };
 
 export default function RootLayout({
