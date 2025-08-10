@@ -78,7 +78,7 @@ export default function Projects({ projects }: ProjectsProps) {
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="relative w-full max-w-[500px] aspect-[4/3] rounded-2xl overflow-hidden group">
+                <div className="relative w-full max-w-[600px] aspect-[4/3] rounded-2xl overflow-hidden group">
                   {/* Glass-like background */}
                   <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/50 to-zinc-800/50 backdrop-blur-sm" />
                   
@@ -93,7 +93,7 @@ export default function Projects({ projects }: ProjectsProps) {
                       src={project.image}
                       alt={project.title}
                       fill
-                      className="object-contain p-4 sm:p-8 transition-transform duration-500 group-hover:scale-105"
+                      className="object-contain transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
 
@@ -107,4 +107,4 @@ export default function Projects({ projects }: ProjectsProps) {
       </div>
     </section>
   );
-} 
+}   

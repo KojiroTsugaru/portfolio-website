@@ -49,15 +49,15 @@ export const projects: Project[] = [
     tech: ["SwiftUI", "FastAPI", "AWS(S3, RDS, Lambda, API Gateway)"]
   },
   {
-    title: "KamiRes AI",
+    title: "Flair",
     description: "AI-powered iOS app to generate reply suggestion from just a screenshot of a chat",
-    longDescription: `KamiRes AI revolutionizes messaging by providing intelligent 
+    longDescription: `Flair AI revolutionizes messaging by providing intelligent 
     reply suggestions through screenshot analysis. The app uses OpenAI's GPT models 
     to understand chat context and generate relevant responses. Built with SwiftUI for a 
     seamless iOS experience, it features a custom FastAPI backend deployed on Railway that 
     securely handles API credentials and enables dynamic prompt engineering. The architecture 
     allows for rapid iteration of AI behavior without requiring app updates.`,
-    image: "/next.svg",
+    image: "/flair-img.png",
     date: "Feb 2025 - March 2025",
     links: [
       {
@@ -67,12 +67,12 @@ export const projects: Project[] = [
       },
       {
         label: "Backend GitHub",
-        url: "https://github.com/KojiroTsugaru/Kami-Res-AI-backend",
+        url: "https://github.com/KojiroTsugaru/flair-backend",
         icon: <ExternalLinkIcon />
       },
       {
         label: "Frontend GitHub",
-        url: "https://github.com/KojiroTsugaru/Kami-Res-AI",
+        url: "https://github.com/KojiroTsugaru/flair-ios",
         icon: <ExternalLinkIcon />
       },
     ],
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     also includes push notifications 
     to keep users engaged and 
     informed about new content.`,
-    image: "/next.svg",
+    image: "/lunon-img.png",
     date: "December 2023 - March 2024",
     links: [
       {
