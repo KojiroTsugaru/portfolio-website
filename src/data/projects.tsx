@@ -27,7 +27,7 @@ export const projects: Project[] = [
       coordination. With its clean, intuitive interface and science-backed approach, Puctee not only helps 
       you arrive on time today—it evolves with you, making every commitment count.
     `,
-    image: "/next.svg",
+    image: "/puctee-img.png",
     date: "April 2025 - Present",
     links: [
       {
