@@ -20,12 +20,12 @@ export const projects: Project[] = [
     title: "Puctee",
     description: "iOS app to encourage people to prevent being late for appointments with friends",
     longDescription: `
-      Transform your time management with Puctee, the social-accountability iOS app that will help you prevent being late for appointments with friends. By allowing you to set predefined penalties when creating events, Puctee harnesses 
-      peer pressure and behavioral economics to dramatically improve punctuality. Under the hood, iOS frontend is 
-      powered by SwiftUI, while a FastAPI backend running on AWS Lambda and API Gateway powers secure, serverless 
-      operations; PostgreSQL on RDS stores your data; and JWT authentication plus push notifications ensure reliable 
-      coordination. With its clean, intuitive interface and science-backed approach, Puctee not only helps 
-      you arrive on time today—it evolves with you, making every commitment count.
+      Transform your time management with Puctee, the social-accountability iOS app that helps you prevent being late for appointments with friends. 
+      Create events with predefined penalties that activate when someone runs late—harnessing peer pressure and behavioral economics to dramatically 
+      improve punctuality. Set up group events, invite friends, and watch as the fear of consequences (whether it's buying coffee or doing push-ups) 
+      motivates everyone to arrive on time. Real-time push notifications keep everyone informed, while the clean, intuitive interface makes coordination 
+      effortless. With its science-backed approach to accountability, Puctee transforms punctuality from a personal struggle into a shared commitment, 
+      making every appointment count.
     `,
     image: "/puctee-img.png",
     date: "April 2025 - Present",
@@ -36,17 +36,12 @@ export const projects: Project[] = [
         icon: <ExternalLinkIcon />
       },
       {
-        label: "Backend GitHub",
-        url: "https://github.com/KojiroTsugaru/puctee-backend",
-        icon: <ExternalLinkIcon />
-      },
-      {
-        label: "Frontend GitHub",
-        url: "https://github.com/KojiroTsugaru/puctee",
+        label: "Mono Repo GitHub",
+        url: "git@github.com:KojiroTsugaru/puctee-mono.git",
         icon: <ExternalLinkIcon />
       },
     ],
-    tech: ["SwiftUI", "FastAPI", "AWS(S3, RDS, Lambda, API Gateway)"]
+    tech: ["SwiftUI", "FastAPI", "AWS(S3, RDS, Lambda, API Gateway)", "JWT Auth", "APNs"]
   },
   {
     title: "Flair",
