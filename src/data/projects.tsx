@@ -32,7 +32,7 @@ export const projects: Project[] = [
     links: [
       {
         label: "App Store",
-        url: "https://apps.apple.com/app/your-app-id",
+        url: "https://apps.apple.com/us/app/puctee/id6748178415",
         icon: <ExternalLinkIcon />
       },
       {
